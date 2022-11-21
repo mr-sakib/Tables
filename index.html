@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>replit</title>
+  <style>
+/*     body{
+      background-color: skyblue;
+    } */
+    table{
+      width: 80%;
+      margin: 5% 10%;
+    }
+    table,th,td,tr{
+      border: 2px solid black;
+      border-collapse: collapse;
+      text-align: center;
+    }
+   th,td{
+     padding: 15px;
+   }
+   #tableheadings{
+     background-color: gray;
+   }
+   tr:nth-child(odd){
+     background-color: #ebf7ee;
+   }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption><h4><em>Table: Class Time Table</em></h4></caption>
+    <tr id="tableheadings">
+      <th>Day/Period</th>
+      <th>09:30-10:20</th>
+      <th>10:20-11:10</th>
+      <th>11:10-12:00</th>
+      <th>12:00-12:40</th>
+      <th>12:40-01:30</th>
+      <th>01:30-02:20</th>
+      <th>02:20-03:10</th>
+      <th>03:10-04:00</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Maths</td>
+      <td>English</td>
+      <td>Chemistry</td>
+      <td rowspan="6"><h4>L<br>U<br>N<br>C<br>H</h4></td>
+      <td colspan="3">Lab</td>
+      <td>Physics</td>      
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td colspan="3">Lab</td>
+      <td>English</td>
+      <td>Maths</td>
+      <td>Chemistry</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Maths</td>
+      <td>Physics</td>
+      <td>English</td>
+      <td>Chemistry</td>
+      <td colspan="3">Library</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Maths</td>
+      <td>English</td>
+      <td>Chemistry</td>
+      <td colspan="3">Lab</td>
+      <td>Physics</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td colspan="3">Lab</td>
+      <td>Maths</td>
+      <td>English</td>
+      <td>Chemistry</td>
+      <td>Physics</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Maths</td>
+      <td>English</td>
+      <td>Chemistry</td>
+      <td colspan="3">Seminar</td>
+      <td>Physics</td>
+    </tr>
+  </table>
+</body>
+
+</html>
